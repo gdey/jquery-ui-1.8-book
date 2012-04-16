@@ -1,0 +1,40 @@
+.ui-corner-all {
+   
+   -moz-border-radius:0; 
+   -webkit-border-radius:0;
+   border-radius:0;
+}
+
+.ui-widget-header {
+  
+  font-family:Georgia; background:#534741;
+  border:1px solid #362f2d; 
+  color: #c7b299;
+
+}
+
+.ui-form .ui-wiget-header h2 {
+  margin: 0;
+  border: 1px solid #998675; padding: 10px;
+  font-sytle:italic; font-weight:normal;
+}
+
+.ui-form .ui-widget-content {
+  background:#c7b299; border:1px solid #362f2d; border-top:0;
+  padding:0;
+}
+
+.ui-widget-content form {
+  padding:20px; border:1px solid #f3eadf;
+}
+
+.ui-widget-content .ui-state-error {
+  border:1px solid $e7cc17; background:#fbf5cd;
+}
+
+.ui-widget-content .ui-state-error-text {
+  color:#e7cc17; padding-left:10px;
+}
+
+.ui-state-error .ui-icon { display:none }
+
