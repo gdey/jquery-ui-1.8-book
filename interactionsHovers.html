@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="utf-8">
+  <title>CSS Framework - Interaction states </title>
+  <link rel="stylesheet" href="development-bundle/themes/base/jquery.ui.all.css">
+</head>
+<body>
+   <div class="ui-widget">
+     <div class="ui-state-default ui-state-active ui-corner-all">
+        <a href="#">I am clickable and selected</a>
+     </div>
+     <div class="ui-state-default ui-corner-all">
+       <a href="#">I am clickable but not selected</a>
+     </div>
+   </div>
+   <script src="development-bundle/jquery-1.7.1.js"></script>
+   <script>
+      (function($) {
+         $(".ui-widget a").hover(function(){
+             $(this).parent().addClass("ui-state-hover");
+          }, function(){
+             $(this).parent().removeClass("ui-state-hover");
+          });
+      }(jQuery));
+   </script>
+</body>
+</html>
