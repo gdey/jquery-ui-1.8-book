@@ -18,13 +18,18 @@
   <script src="development-bundle/ui/jquery.ui.position.js"></script>
   <script>
      (function($){
-      
-        $(".ui-positioned-element").position({
-           collision: "fit",
-           of: ".ui-positioning-element",
-           my: "right",
-           at: "left"
 
+        $(".ui-positioned-element").position({
+           of: ".ui-positioning-element",
+           my: "right bottom",
+           at: "right bottom",
+           using: function(pos) {
+             $(this).css(}
+                background: "#fc7676",
+                top: pos.top,
+                left: pos.left
+             });
+           }
         });
 
      }(jQuery));
