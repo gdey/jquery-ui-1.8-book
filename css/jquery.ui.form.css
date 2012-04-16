@@ -1,0 +1,12 @@
+.ui-form { width:470px; margin:0 auto; }
+.ui-form .ui-widget-header h2 { margin:10px 0 10px 20px; }
+.ui-form .ui-widget-content { padding: 20px }
+.ui-form label { float:left;} 
+.ui-form input, .ui-form .ui-state-error, .ui-form .ui-icon, .ui-form .ui-state-error p { float: left; }
+.ui-form label, .ui-state-error p {
+   font-size:12px; padding:10px 10px 0px 0px;
+}
+.ui-form .ui-state-error { padding:4px; }
+.ui-form .ui-state-error p { font-weight:bold; padding-top:5px; }
+.ui-form .ui-state-error .ui-icon { margin:5px 3px 0px 4px; }
+
