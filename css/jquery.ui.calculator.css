@@ -1,0 +1,29 @@
+.ui-calculator { width:9.65em; }
+.ui-calculator-container { padding:.2em .2em 0; }
+.ui-calculator-display {
+   width:12.3em;
+   padding:.3em;
+   margin-bottom:.3em;
+   font-size:0.7em;
+   overflow:auto;
+}
+.ui-calculator-numberpad {
+   width:7em; float:left;
+}
+
+.ui-calculator-functionpad { width:2em; float:left; }
+.ui-calculator li {
+   float:left;
+   margin:0 .2em .2em 0;
+}
+.ui-calculator-button {
+  display:block;
+  width:2em; 
+  height:1.2em;
+  padding:.3em 0 .5em; 
+  text-align:center; 
+  border:0;
+}
+
+.ui-calculator-button-wide { width:4.3em; }
+.ui-calculator-icon { margin:.2em auto; }
